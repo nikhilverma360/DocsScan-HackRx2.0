@@ -100,7 +100,7 @@ public class MainActivity extends BaseActivity {
         settingsFragment = new SettingsFragment();
 
         fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.fragment_holder, galleryFragment).commitNow();
+        fragmentManager.beginTransaction().replace(R.id.fragment_holder, mainFragment).commitNow();
 
         bottomNavigationView = findViewById(R.id.bottom_navigation_view);
 

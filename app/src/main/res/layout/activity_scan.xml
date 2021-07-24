@@ -89,14 +89,16 @@
             android:layout_gravity="start|center_vertical"
             android:layout_marginStart="44dp"
             app:cardBackgroundColor="@color/transparent"
-            app:cardCornerRadius="6dp">
+            app:cardCornerRadius="6dp"
+            android:visibility="gone">
 
             <ImageView
                 android:id="@+id/pick_from_gallery"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_gallery"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                />
         </androidx.cardview.widget.CardView>
 
     </FrameLayout>

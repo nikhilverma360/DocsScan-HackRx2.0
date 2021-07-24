@@ -54,7 +54,8 @@
             android:paddingVertical="12dp"
             android:text="Finish"
             android:textColor="@android:color/white"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"/>
 
     </LinearLayout>
 

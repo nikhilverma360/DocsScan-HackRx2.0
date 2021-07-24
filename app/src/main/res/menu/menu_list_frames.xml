@@ -16,12 +16,12 @@
         android:orderInCategory="10"
         android:title="Delete Collection"
         app:showAsAction="never"
-        android:visible="false"/>
+        />
 
     <item
         android:id="@+id/menu_rename"
         android:orderInCategory="20"
         android:title="Rename Collection"
         app:showAsAction="never"
-        android:visible="false"/>
+        />
 </menu>

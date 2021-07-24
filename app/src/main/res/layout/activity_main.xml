@@ -27,6 +27,6 @@
         app:itemTextColor="@color/bottom_navigation_text"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/menu_bottom_navigation_main"
-        android:visibility="gone"/>
+        />
 
 </LinearLayout>

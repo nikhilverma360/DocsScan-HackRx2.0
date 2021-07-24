@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#414141"
+    android:orientation="vertical"
+    tools:context=".activity.ViewPageActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <com.nikhilverma360.DocumentScan.view.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_bottom_bar"
+        android:padding="8dp"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemIconTint="@color/bottomNavigationIcon"
+        app:itemTextColor="@color/bottomNavigationText"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bottom_navigation_view_frame" />
+</LinearLayout>

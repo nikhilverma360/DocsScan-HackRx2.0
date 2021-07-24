@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_export_pdf"
+        android:icon="@drawable/ic_share"
+        android:orderInCategory="0"
+        app:iconTint="@color/colorTextPrimary"
+        android:title="Export PDF"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_delete"
+        android:orderInCategory="10"
+        android:title="Delete Collection"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_rename"
+        android:orderInCategory="20"
+        android:title="Rename Collection"
+        app:showAsAction="never"
+        android:visible="false"/>
+</menu>

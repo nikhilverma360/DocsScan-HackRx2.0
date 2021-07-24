@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<paths>
+    // store in public directory for sharing. Associate with getExternalStorageDirectory
+    // file path will be storage/emulated/0/Example/Media/Example Images/
+    <external-path name="my_share_images" path="DocScan/"/>
+
+    // store in Android app package name directory. Associate with getExternalFilesDir
+    // file path will be storage/emulated/0/Android/data/com.example.ex/files/Example Images/
+    <external-files-path name="my_images" path="DocScan/"/>
+
+    // store in root directory. Cannot access without root. Associate with getFilesDir
+    // file path will be storage/data/user/0/Android/data/com.example.ex/files/Example Images/
+    <files-path name="my_internal_images" path="Images/"/>
+
+</paths>

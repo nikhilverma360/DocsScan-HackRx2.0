@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#EBECF2</color>
+    <color name="colorAccent">#0086F0</color>
+
+    <color name="colorToolbarBackground">#EBECF2</color>
+    <color name="colorToolbarTitle">#15161C</color>
+    <color name="colorToolbarBorder">#D4D4D4</color>
+
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="colorWindowBackground">#E1E1E1</color>
+
+    <color name="bottomNavigationText">#000000</color>
+    <color name="bottomNavigationIcon">#828282</color>
+    <color name="bottomNavigationBackground">#FCFCFD</color>
+
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorTextSecondary">#7D7D7D</color>
+    <color name="colorDivider">#1A000000</color>
+
+    <color name="colorRow">#FFFFFF</color>
+</resources>

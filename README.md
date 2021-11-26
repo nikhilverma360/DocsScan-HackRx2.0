@@ -11,7 +11,7 @@ A pocket scanning tool to enhance quality of a document image.
   
  <h2>Screenshots</h2>
 <table>
-      <tr><td><img src="https://github.com/HackRx2-0/ps7_bbdec_team/blob/master/ScreenShots/Screenshot_20210724-170422_Scan%20Document.jpg" width="450" height="950"></td>
+      <tr><td><img src="https://github.com/HackRx2-0/ps7_bbdec_team/blob/master/ScreenShots/Screenshot_202107924-170422_Scan%20Document.jpg" width="450" height="950"></td>
         <td><img src="https://github.com/HackRx2-0/ps7_bbdec_team/blob/master/ScreenShots/Screenshot_20210724-170243_Scan%20Document.jpg" width="450" height="950"></td></tr>
       <tr><td><img src="https://github.com/HackRx2-0/ps7_bbdec_team/blob/master/ScreenShots/Screenshot_20210724-170223_Scan%20Document.jpg" width="450" height="950"></td>
         <td><img src="https://github.com/HackRx2-0/ps7_bbdec_team/blob/master/ScreenShots/Screenshot_20210724-170257_Scan%20Document.jpg" width="450" height="950"></td></tr>
